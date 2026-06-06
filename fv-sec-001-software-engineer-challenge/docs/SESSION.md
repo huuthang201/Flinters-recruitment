@@ -10,20 +10,20 @@
 | Language | Java 21 |
 | Build tool | Maven |
 | Date | 2026-06-07 |
-| Current status | TASK-01 complete; TASK-02 ready to start |
+| Current status | All tasks complete |
 
 ## Task Progress
 
 | Task ID | File | Status | Notes |
 |---|---|---|---|
 | TASK-01 | `src/main/java/com/adagg/model/CampaignStats.java` | ✅ Complete | Core aggregate model generated |
-| TASK-02 | `src/main/java/com/adagg/util/ArgParser.java` | 🟡 In Progress | CLI parsing and path validation |
-| TASK-03 | `src/main/java/com/adagg/util/RowValidator.java` | ⬜ Pending | Per-row validation and typed row record |
-| TASK-04 | `src/main/java/com/adagg/processor/CsvAggregator.java` | ⬜ Pending | Streaming, validation integration, aggregation, ranking |
-| TASK-05 | `src/main/java/com/adagg/writer/CsvWriter.java` | ⬜ Pending | Output CSV writing and formatting |
-| TASK-06 | `src/main/java/com/adagg/Main.java` | ⬜ Pending | Application wiring and timing summary |
-| TASK-07 | `src/test/java/com/adagg/processor/CsvAggregatorTest.java` | ⬜ Pending | JUnit 5 tests for business behavior |
-| TASK-08 | `README.md` | ⬜ Pending | Final implementation README and benchmark notes |
+| TASK-02 | `src/main/java/com/adagg/util/ArgParser.java` | ✅ Complete | CLI parsing and path validation generated |
+| TASK-03 | `src/main/java/com/adagg/util/RowValidator.java` | ✅ Complete | Per-row validation and typed row record generated |
+| TASK-04 | `src/main/java/com/adagg/processor/CsvAggregator.java` | ✅ Complete | Streaming, validation integration, aggregation, ranking generated |
+| TASK-05 | `src/main/java/com/adagg/writer/CsvWriter.java` | ✅ Complete | Output CSV writing and formatting generated |
+| TASK-06 | `src/main/java/com/adagg/Main.java` | ✅ Complete | Application wiring and timing summary generated |
+| TASK-07 | `src/test/java/com/adagg/CsvAggregatorTest.java` | ✅ Complete | JUnit 5 tests for business behavior generated |
+| TASK-08 | `docs/INSTRUCTIONS.md` | ✅ Complete | Final implementation instructions and benchmark placeholders generated |
 
 ## Expected Final File Tree
 
@@ -35,6 +35,7 @@ fv-sec-001-software-engineer-challenge/
   ad_data.csv.zip
   docs/
     BUSINESS-LOGIC.md
+    INSTRUCTIONS.md
     SESSION.md
     SKILLS.md
     TASKS.md
@@ -63,9 +64,8 @@ fv-sec-001-software-engineer-challenge/
       java/
         com/
           adagg/
-            processor/
-              CsvAggregatorTest.java
-ROMPTS.md
+            CsvAggregatorTest.java
+../PROMPTS.md
 ```
 
 ## Decisions Log
@@ -85,9 +85,7 @@ ROMPTS.md
 ## Open Questions And Blockers
 
 - No current blockers.
-- Confirm whether the implementation should treat simple comma splitting as sufficient because the input schema does not mention quoted CSV fields.
-- Confirm whether output CPA should be an empty CSV field when conversions are zero in `top10_ctr.csv`.
 
 ## Next Action
 
-Wait for instruction before starting **TASK-02: `util/ArgParser.java`**.
+Wait for further instruction.

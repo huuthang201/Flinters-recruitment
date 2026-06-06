@@ -161,11 +161,41 @@ opencode run "In folder fv-sec-001-software-engineer-challenge, read `docs/SKILL
 ## PROMPT-03
 
 ```text
-Placeholder: record the next coding-session prompt here.
+opencode run "Read `docs/SKILLS.md`, `docs/BUSINESS-LOGIC.md`, `docs/WORKFLOWS.md`, `docs/TASKS.md`, and `docs/SESSION.md` carefully. Then start **TASK-02** — generate `src/main/java/com/adagg/util/ArgParser.java`. After done, update `docs/SESSION.md` to mark TASK-02 as ✅ and set TASK-03 as 🟡. Append this prompt verbatim as **PROMPT-03** to `PROMPTS.md`. Then wait for my instruction."
 ```
 
 ## PROMPT-04
 
 ```text
-Placeholder: record the next coding-session prompt here.
+opencode run "Read `docs/SKILLS.md`, `docs/BUSINESS-LOGIC.md`, `docs/WORKFLOWS.md`, `docs/TASKS.md`, and `docs/SESSION.md` carefully. Then start **TASK-03** — generate `src/main/java/com/adagg/util/RowValidator.java`. After done, update `docs/SESSION.md` to mark TASK-03 as ✅ and set TASK-04 as 🟡. Append this prompt verbatim as **PROMPT-04** to `PROMPTS.md`. Then wait for my instruction."
+```
+
+## PROMPT-05
+
+```text
+opencode run "Read `docs/SKILLS.md`, `docs/BUSINESS-LOGIC.md`, `docs/WORKFLOWS.md`, `docs/TASKS.md`, and `docs/SESSION.md` carefully. Then start **TASK-04** — generate `src/main/java/com/adagg/processor/CsvAggregator.java`. After done, update `docs/SESSION.md` to mark TASK-04 as ✅ and set TASK-05 as 🟡. Append this prompt verbatim as **PROMPT-05** to `PROMPTS.md`. Then wait for my instruction."
+```
+
+## PROMPT-06
+
+```text
+opencode run "Read `docs/SKILLS.md`, `docs/BUSINESS-LOGIC.md`, `docs/WORKFLOWS.md`, `docs/TASKS.md`, and `docs/SESSION.md` carefully. Then start **TASK-05** — generate `src/main/java/com/adagg/writer/CsvWriter.java`. After done, update `docs/SESSION.md` to mark TASK-05 as ✅ and set TASK-06 as 🟡. Append this prompt verbatim as **PROMPT-06** to `PROMPTS.md`. Then wait for my instruction."
+```
+
+## PROMPT-07
+
+```text
+opencode run "Read `docs/SKILLS.md`, `docs/BUSINESS-LOGIC.md`, `docs/WORKFLOWS.md`, `docs/TASKS.md`, and `docs/SESSION.md` carefully. Then start **TASK-06** — generate `src/main/java/com/adagg/Main.java`. After done, update `docs/SESSION.md` to mark TASK-06 as ✅ and set TASK-07 as 🟡. Append this prompt verbatim as **PROMPT-07** to `PROMPTS.md`. Then wait for my instruction."
+```
+
+## PROMPT-08
+
+```text
+opencode run "Read `docs/SKILLS.md`, `docs/BUSINESS-LOGIC.md`, `docs/WORKFLOWS.md`, `docs/TASKS.md`, and `docs/SESSION.md` carefully. Then start **TASK-07** — generate `src/test/java/com/adagg/CsvAggregatorTest.java`. After done, update `docs/SESSION.md` to mark TASK-07 as ✅ and set TASK-08 as 🟡. Append this prompt verbatim as **PROMPT-08** to `PROMPTS.md`. Then wait for my instruction."
+```
+
+## PROMPT-09
+
+```text
+opencode run "Read `docs/SKILLS.md`, `docs/BUSINESS-LOGIC.md`, `docs/WORKFLOWS.md`, `docs/TASKS.md`, and `docs/SESSION.md` carefully. Then start **TASK-08** — generate `docs/INSTRUCTIONS.md` including: setup instructions, how to run, libraries used, processing time placeholder, peak memory usage placeholder, and full project structure. After done, update `docs/SESSION.md` to mark TASK-08 as ✅ and all tasks as ✅. Append this prompt verbatim as **PROMPT-09** to `PROMPTS.md`. Then wait for my instruction."
 ```
